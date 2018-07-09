@@ -1,0 +1,123 @@
+@media screen and (min-width: 1025px) and (max-width: 1259px) {
+ 
+    .left, .right{
+        width: 482px;
+    }
+    
+    .countup{
+        font-size: 68px;
+    }
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    
+    .wrapper{
+        height: calc(100% - 90px);
+        height: -webkit-calc(100% - 90px);
+        height:  -moz-calc(100% - 90px);
+        min-height: 0px;
+        margin: 19px 20px;
+    }
+    
+    .left-wrapper, .right-wrapper{
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .left-wrapper{
+        display: block;
+    }
+    
+    .right-wrapper{
+        display: none;
+    }
+    
+    .container-1{
+/*        margin-bottom: 0px;*/
+    }
+    
+    .left, .right{
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    .mobile-nav{
+        display: block;
+        margin: 19px 20px;
+    }
+    
+    .mobile-nav p{
+/*        margin: 0px*/
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 599px){
+    
+    .countup{
+        font-size: 54px;
+    }
+    
+    .colon{
+    position: relative;
+    top: -4px;
+    margin: 0px -7px
+    }
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px){
+    
+    h1{
+        font-size: 74px;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+    
+    .counter h2{
+        font-size: 28px;
+    }
+    
+    .time{
+        margin-top: -7px;
+    }
+    
+    .dash{
+        position: relative;
+        top: -6px;
+        margin-right: -8px;
+    }
+
+    .o{
+        margin-left: -2px;
+        margin-right: 20px;
+    }
+    
+    .container-2{
+        box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.9);
+        -webkit-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.9);
+        -moz-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.9);
+    }
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 380px){
+    
+    .countup{
+        font-size: 44px;
+    }
+    
+    .colon{
+    position: relative;
+    top: -2px;
+    margin: 0px -6px
+    }
+    
+    .descript{
+    }
+    
+}
