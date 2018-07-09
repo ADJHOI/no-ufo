@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
     position: absolute;
     -webkit-font-smoothing: antialiased;
 /*    overflow: hidden;*/
