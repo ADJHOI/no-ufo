@@ -255,10 +255,11 @@ p{
     height: 100%;
     border: 1px solid black;
     overflow: scroll;
-    overflow-x: visible !important;
+    overflow-y: auto !important;
     width: 600px;
     position: relative;
     background-color: #ffffff;
+    -webkit-overflow-scrolling: touch;
 }
 
 .left{
