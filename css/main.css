@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-family:  "Helvetica Neue", "Helvetica", "Nimbus Sans", sans-serif;
     position: absolute;
     -webkit-font-smoothing: antialiased;
 /*    overflow: hidden;*/
@@ -22,6 +22,10 @@ body{
 ::selection {
    background: rgba(0, 0, 0, 0.99);
    color: #000000;
+}
+
+::-webkit-scrollbar {
+display: none;
 }
 
 h1, h2, h3, h4, p{
@@ -140,6 +144,7 @@ p{
 }
 
 .arrow{
+    font-family: "Arial", sans-serif;
     text-align: center;
     font-size: 22px;
     opacity: 0.25
@@ -151,12 +156,12 @@ p{
 .dash{
     position: relative;
     top: -7px;
-    margin-right: -9px;
+    margin-right: -4px;
 }
 
 .o{
     margin-left: -1.5px;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 .row-1, .row-2, .row-3{
@@ -291,7 +296,6 @@ p{
     margin: 0px 20px;
     display: none;
     height: 30px;
-    line-height: 30px;
     border: 1px solid #000000;
     z-index: 1;
     -webkit-touch-callout: none;
@@ -314,9 +318,12 @@ p{
 }
 
 .mobile-nav p{
+    font-family: "Arial", sans-serif;
     width: 100%;
     text-align: center;
     font-size: 21px;
+    height: 100%;
+    line-height: 27px;
 /*    margin-right: -5px;*/
 }
 
