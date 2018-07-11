@@ -89,12 +89,12 @@
     .dash{
         position: relative;
         top: -6px;
-        margin-right: -8px;
+        margin-right: -5px;
     }
 
     .o{
         margin-left: -2px;
-        margin-right: 20px;
+        margin-right: 22px;
     }
     
     .container-2{
@@ -117,7 +117,5 @@
     margin: 0px -6px
     }
     
-    .descript{
-    }
     
 }
