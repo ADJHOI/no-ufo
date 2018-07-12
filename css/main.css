@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    font-family:  "Helvetica Neue", "Helvetica", "Nimbus Sans", sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     position: absolute;
     -webkit-font-smoothing: antialiased;
 /*    overflow: hidden;*/
@@ -76,9 +76,11 @@ h2{
 }
 
 .counter .dash{
+/*
     position: relative;
     top: -1px;
     margin: 0px 0.5px;
+*/
 }
 
 .slash{
@@ -144,7 +146,7 @@ p{
 }
 
 .arrow{
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-align: center;
     font-size: 22px;
     opacity: 0.25
@@ -154,9 +156,11 @@ p{
 }
 
 .dash{
+/*
     position: relative;
     top: -7px;
     margin-right: -4px;
+*/
 }
 
 .o{
