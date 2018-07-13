@@ -1,6 +1,7 @@
 var count = 0;
 
     $('.mobile-nav').click(function(){
+        console.log(count);
         count ++;
         if (count > 2) {
             count = 1;
@@ -9,20 +10,26 @@ var count = 0;
         $('.mobile-nav').css({'-webkit-transform': 'scaleX(-1)', 'transform': 'scaleX(-1)'});    
         $('.left-wrapper').css({'display': 'none'});
         $('.right-wrapper').css({'display': 'block'});
-    }   else {
+    }   else if (count == 2) {
         $('.mobile-nav').css({'-webkit-transform': 'scaleX(1)', 'transform': 'scaleX(1)'});        
         $('.left-wrapper').css({'display': 'block'});
         $('.right-wrapper').css({'display': 'none'});
     }
+//        $('.mobile-nav').css({'-webkit-transform': 'scaleX(-1)', 'transform': 'scaleX(-1)'});
+//        $('.left-wrapper').toggleClass('open');
+//        $('.right-wrapper').toggleClass('open');
 });
 
 $(window).resize(function(){
-    var width = $(window).width();
+    var width = $(window).innerWidth();
+    console.log(width);
     if (width > 1024) {
-        count = 0;
+        count = 2;
         $('.left-wrapper').css({'display': 'block'});
         $('.right-wrapper').css({'display': 'block'});
-    } else {
+    } 
+    else {
+        count = 0;
         $('.mobile-nav').css({'-webkit-transform': 'scaleX(1)', 'transform': 'scaleX(1)'});         
         $('.left-wrapper').css({'display': 'block'});
         $('.right-wrapper').css({'display': 'none'});
