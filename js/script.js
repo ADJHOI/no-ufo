@@ -1,39 +1,43 @@
 var count = 0;
 
-    $('.mobile-nav').click(function(){
-        console.log(count);
-        count ++;
-        if (count > 2) {
-            count = 1;
-        }
-        if (count == 1) {
-        $('.mobile-nav').css({'-webkit-transform': 'scaleX(-1)', 'transform': 'scaleX(-1)'});    
-        $('.left-wrapper').css({'display': 'none'});
-        $('.right-wrapper').css({'display': 'block'});
-    }   else if (count == 2) {
-        $('.mobile-nav').css({'-webkit-transform': 'scaleX(1)', 'transform': 'scaleX(1)'});        
-        $('.left-wrapper').css({'display': 'block'});
-        $('.right-wrapper').css({'display': 'none'});
-    }
+//        console.log(count);
+//        count ++;
+//        if (count > 2) {
+//            count = 1;
+//        }
+//        if (count == 1) {
+//        $('.mobile-nav').css({'-webkit-transform': 'scaleX(-1)', 'transform': 'scaleX(-1)'});    
+//        $('.left-wrapper').css({'display': 'none'});
+//        $('.right-wrapper').css({'display': 'block'});
+//    }   else if (count == 2) {
+//        $('.mobile-nav').css({'-webkit-transform': 'scaleX(1)', 'transform': 'scaleX(1)'});        
+//        $('.left-wrapper').css({'display': 'block'});
+//        $('.right-wrapper').css({'display': 'none'});
+//    }
 //        $('.mobile-nav').css({'-webkit-transform': 'scaleX(-1)', 'transform': 'scaleX(-1)'});
-//        $('.left-wrapper').toggleClass('open');
-//        $('.right-wrapper').toggleClass('open');
+
+$('#right-nav').click(function(){
+    $('#right-nav').addClass('open');
+    $('#left-nav').addClass('open');
+    $('.left-wrapper').addClass('open');
+    $('.right-wrapper').addClass('open');
+});
+
+$('#left-nav').click(function(){
+    $('#right-nav').removeClass('open');
+    $('#left-nav').removeClass('open');
+    $('.left-wrapper').removeClass('open');
+    $('.right-wrapper').removeClass('open'); 
 });
 
 $(window).resize(function(){
     var width = $(window).innerWidth();
     console.log(width);
     if (width > 1024) {
-        count = 2;
-        $('.left-wrapper').css({'display': 'block'});
-        $('.right-wrapper').css({'display': 'block'});
-    } 
-    else {
-        count = 0;
-        $('.mobile-nav').css({'-webkit-transform': 'scaleX(1)', 'transform': 'scaleX(1)'});         
-        $('.left-wrapper').css({'display': 'block'});
-        $('.right-wrapper').css({'display': 'none'});
-    }
+        $('#right-nav').removeClass('open');
+        $('#left-nav').removeClass('open');
+        $('.left-wrapper').removeClass('open');
+        $('.right-wrapper').removeClass('open'); }   
 });
 
 

@@ -316,9 +316,20 @@ p{
     cursor: pointer;
 }
 
-.mobile-nav.open{
+#right-nav.open{
+    display: none;
+/*
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+*/
+}
+
+#left-nav{
+    display: none;
+}
+
+#left-nav.open{
+    display: block;
 }
 
 .mobile-nav p{
