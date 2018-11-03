@@ -783,10 +783,14 @@ h3{
 }
 
 .leaflet-control-zoom-in{
+    font-family: "Helvetica Neue" !important;
+    text-align: center !important;
     margin-top: 10px;    
 }
 
 .leaflet-control-zoom-out{
+    font-family: "Helvetica Neue" !important;
+    text-align: center !important;
     margin-top: 10px;
 }
 
