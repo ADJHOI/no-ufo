@@ -98,6 +98,11 @@
         margin-bottom: 25px;
     }
     
+    .smallcaps{
+        font-size: 9px;
+        margin-left: 1px;
+    }
+    
     h1{
         font-size: 74px;
     }
@@ -118,11 +123,6 @@
     .detail .smallcaps{
         font-size: 11px !important;
         margin-left: 2px !important;
-    }
-    
-    .smallcaps{
-        font-size: 9px;
-        margin-left: 1px;
     }
     
     .number-point{
