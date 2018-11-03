@@ -1,4 +1,4 @@
-@media screen and (min-width: 1570px) {
+@media only screen and (min-width: 1570px) {
     
     .left, .right{
         width: 750px;
@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (max-width: 1259px) {
+@media only screen and (max-width: 1259px) {
  
     .left, .right{
         width: 482px;
@@ -25,7 +25,7 @@
     
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
     
     .wrapper{
         height: calc(100% - 90px);
@@ -74,7 +74,7 @@
     }
 }
 
-@media screen and (max-width: 450px){
+@media only screen and (max-device-width: 450px){
     
     .report-title{
         top: calc(50% + 80px);
