@@ -38,10 +38,14 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/media-query.css"/>
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
     
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/countdown.min.js"></script>    
+    <script type="text/javascript" src="js/countdown.min.js"></script>  
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/leaflet-providers.js"></script>
+
     
 </head>
     
@@ -57,138 +61,146 @@
                 <h1 class="title"><span class="dash">—</span>N<span class="o">O</span></h1>
             </div>
             
-            <a id="left-scroll" href="#documents">    
+            <div class="report-number">
+                <h1>7</h1>
+            </div>
+                        
+            <a id="left-scroll" href="#report"> 
                 <div class="container-1">
                 </div>    
             </a>
             
-            <div class="container-2" id="documents">
+            <div class="container-2" id="report">
                 <div class="report-wrapper">
                     
-                <h2 class="intro">
-                    Documenting the History of UFO Sightings in New Zealand
-                </h2> 
-                <p class="indent">
-                    In 2010, the New Zealand Ministry of Defence made copies of their UFO documents open to the public, albeit with details redacted. Though the original files remain restricted in the New Zealand Archives until further notice, the public version of the documents reveal enough to tell a strange yet interesting aspect of New Zealand history. This site aims to make the information and history of these files more accessible through select reports.
-                </p>
-                <p class="indent">
-                     Though the UFO documents can be requested at the <a target="_blank" href="https://natlib.govt.nz/records/22979464">National Library of New Zealand</a>, they can be easily accessed on the <a target="_blank" href="https://archive.org/details/NewZealandUFO">Internet Archives</a>.
-                </p>
-                <p class="document-list">
-                    The following is a list of all the UFO Documents and when the original files will become accessible:
-                </p>
+                    <h2 class="detail-title">Details of Sighting</h2>
+                    
+                    <div class="detail-sticky">
+                    
+                    <div class="detail">
+                        <p>
+                            <span class="dot">•</span> <span class="detail-heading">Date</span>
+                            3rd January 1965 <span class="dot">•</span>
+                            <span class="detail-heading">Time</span>
+                            10<span class="time-colon">:</span>35<span class="smallcaps">PM</span> <span class="dot">•</span>
+                            <span class="detail-heading">Place</span>
+                            Napier
+                        </p>
+                        <p class="infi-scroll">
+                            <span class="dot">•</span> <span class="detail-heading">Date</span>
+                            3rd January 1965 <span class="dot">•</span>
+                            <span class="detail-heading">Time</span>
+                            10<span class="time-colon">:</span>35<span class="smallcaps">PM</span> <span class="dot">•</span>
+                            <span class="detail-heading">Place</span>
+                            Napier
+                        </p>
+                        <p class="infi-scroll-2">
+                            <span class="dot">•</span> <span class="detail-heading">Date</span>
+                            3rd January 1965 <span class="dot">•</span>
+                            <span class="detail-heading">Time</span>
+                            10<span class="time-colon">:</span>35<span class="smallcaps">PM</span> <span class="dot">•</span>
+                            <span class="detail-heading">Place</span>
+                            Napier
+                        </p>
+                    </div>
+                    
+                <div class="view-map">      
+                    <div class="svg-wrapper">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31.4 31.4" style="enable-background:new 0 0 31.4 31.4;" xml:space="preserve">
+                        
+                    <style type="text/css">
+                        .globe{fill:none;stroke:#000000;stroke-width:1.4173;}
+                    </style>
+                        
+                    <path class="globe" d="M15.6,0.7c-8.3,0-15,6.8-14.9,15.1c0,8.3,6.8,15,15.1,14.9s15-6.8,14.9-15.1c0-8.2-6.7-14.9-14.9-14.9H15.6z"/>
+                        
+                    <path class="globe" d="M15.7,0.7v30 M30.7,15.7h-30 M4.1,6.5c6.9,5,16.3,5,23.2,0 M27.3,24.9c-6.9-5-16.3-5-23.2,0 M14.6,1.1 c-8.1,6.9-9.1,19-2.3,27.1c0.7,0.8,1.5,1.6,2.3,2.3 M16.9,30.5c8.1-6.9,9.1-19,2.3-27.1c-0.7-0.8-1.5-1.6-2.3-2.3"/>
+                        
+                    </svg>
+                    </div>    
+                </div>
                 
-                <div class="counter-wrapper">    
-                <div class="counter">       
-                    <p class="file-no">
-                        AIR 39<span class="forward-slash">/</span>3<span class="forward-slash">/</span>3 Volume 1<span class="hyphen">—</span>Parts 1 and 2
+                </div>
+                
+                <h2 class="pull-quote">
+                    It moved and stopped 3 times and then accelerated… straight up at a fantastic rate of climb 
+                </h2>       
+                    
+                <div class="report-section">    
+                    <p class="report-cat">
+                        Report
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a1'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y1"></span>
-                        </h2>
-                    </div>                    
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 39<span class="forward-slash">/</span>3<span class="forward-slash">/</span>3 Volume 2<span class="hyphen">—</span>Parts 1 and 2
+                    <p class="address">
+                        File Ref.: <span class="underline">39<span class="forward-slash">/</span>3<span class="forward-slash">/</span>3</span>
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a2'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y2"></span></h2>
-                    </div>
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 39<span class="forward-slash">/</span>3<span class="forward-slash">/</span>3 Volume 3
+                    <p class="address">
+                        <span class="underline">NAPIER</span>.<br>
+                        8 February, 1965
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a3'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y3"></span></h2>
-                    </div>
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 39<span class="forward-slash">/</span>3<span class="forward-slash">/</span>3 Volume 4</p>
-                    <div class="timer">
-                        <h2 class="access" id='a4'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y4"></span></h2>
-                    </div>
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 39<span class="forward-slash">/</span>3<span class="forward-slash">/</span>3A Volume 1<span class="hyphen">—</span>Parts 1 and 2
+                    <p class="address">
+                        Wing Commander A.F. Tucker,<br>
+                        Air Department,<br>
+                        <span class="underline">WELLINGTON</span>.
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a5'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y5"></span></h2>
-                    </div>
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 244<span class="forward-slash">/</span>10<span class="forward-slash">/</span>1 Volume 1
+                    <p class="dear">
+                        Dear Sir,
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a6'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y6"></span></h2>
-                    </div>
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 1080<span class="forward-slash">/</span>6<span class="forward-slash">/</span>897 Volume 1
+                    <p class="indent">
+                        I would like to make a report of an unusual sighting I made with 4 members of my family on 3 January 1965, at approx. 10<span class="time-colon">:</span>35<span class="smallcaps">PM</span>. It was unusual because there really is no logical explanation for it. I have had some flying experience (only approx. 25 hours, 16 solo) and have always followed with great interest the advances in aircraft design and lately the interplanetary probes by the United States and Russia. I have observed the satellites that from time to time travel over our particular area, and have seen many falling stars (meteorites) but have not seen before and cannot tie in with the aircraft in operation today, or perhaps being experimented with, the explanation of a light descending down from the vicinity of the pointers of the Southern Cross straight towards us, and then doing what appeared to be a controlled turn to the northeast (all at quite a leisurely pace), leveling <span class="light"><span class="brackets">[</span><span class="italic">SIC</span><span class="brackets">]</span></span> out, and stopping for approx. 8 seconds. It moved and stopped 3 times and then accelerated from the straight and level position straight up at a fantastic rate of climb, losing its intensity of light as it climbed. It was visible in its trip across the sky for 6 or 8 minutes and had the light intensity (when in the straight and level position) of a first magnitude star. <span class="underline">The sky was clear of cloud</span> and visibility excellent. There was no noise, and its height and distance from us I could not calculate.
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a7'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y7"></span></h2>
-                    </div>
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 1630<span class="forward-slash">/</span>2 Volume 1
+                    <p class="indent">
+                        I do not belong to any of the ‘Flying Saucer’ organisations, nor do I intend to join one. But the moment that light stopped and hovered for 8 seconds I was bought and sold. If a logical scientific explanation for this sighting (other than ‘ice crystals’) could be made to me, I could be ‘withdrawn from sale’.
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a8'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y8"></span></h2>
-                    </div>
-                </div>
-
-                <div class="counter">
-                    <p class="file-no">
-                        AIR 1630<span class="forward-slash">/</span>2 Volume 2
+                    <p class="indent">
+                        Hope this information will be of interest.
                     </p>
-                    <div class="timer">
-                        <h2 class="access" id='a9'>
-                            ACCESSIBLE
-                        </h2>
-                        <h2 class="time"><span id="y9"></span></h2>
-                    </div>
+                    <p class="report-end">
+                        Yours faithfully,<br>
+                        <span class="strikethrough">Redacted Name</span>
+                    </p>
                 </div>
+                <div class="report-file"> 
+                    <p>Report taken from file number<br> <b><a class="report-link" href="https://archive.org/stream/NewZealandUFO/AIR-39-3-3-Volume-2-Parts-1-and-2-1956-1979#page/n210" target="_blank">AIR 39<span class="forward-slash">/</span>3<span class="forward-slash">/</span>3 Volume 2<span class="hyphen">—</span>Parts 1 and 2</a></b></p>
                 </div>
+                <div class="report-nav">
+                    <p>
+                        <a class="previous" href="6"><span class="arrow">←</span> NO 6</a>
+                        <a class="home" href="index.html">HOME</a>
+                        <a class="next" href="8">NO 8 <span class="arrow">→</span></a>
+                    </p>
+                </div>    
+                    
+                </div>
+                    
             </div>
-            </div>    
+            
+            <div id="map">
+            <div class="exit">
+                <p><b>×</b></p>
+            </div>
+            </div>
+                <script>
+                    var mymap = L.map('map', {
+                        center: [-39.4928, 176.9120],
+                        zoom: 12,
+                        doubleClickZoom: false,
+//                        zoomControl: false,
+//                        attributionControl: false,
+                        dragging: false,
+                        scrollWheelZoom: 'center',
+                        keyboard: false,
+                        boxZoom: false,
+                        minZoom: 6,
+                        maxZoom: 14,
+                    });
+                  
+                    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		              maxZoom: 18,
+		              attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+	               }).addTo(mymap);
+                    L.tileLayer.provider('Esri.WorldImagery').addTo(mymap);
+                </script>
+            
         </div>
         
     </div>
@@ -204,11 +216,15 @@
                 </h1>
             </div>
             
+            <div class="report-title">
+                <h1>An Unknown<br>Aircraft</h1>
+            </div>
+            
             <a id="right-scroll" href="#menu"> 
                 <div class="container-1">    
                 </div>    
             </a>
-            
+                        
             <div class="container-2" id="menu">
                 <div class="menu-wrapper">
                 <a class="menu-home" href="index">
@@ -356,8 +372,18 @@
 <div class="mobile-nav" id="left-nav">
     <p>←</p>
 </div>    
+
+<script>
+    $('.left').scroll(function() {
+    var y = $('.detail-sticky');
+    if (y.offset().top == 20) {
+        $('.detail-sticky').addClass('open');
+    } else {
+        $('.detail-sticky').removeClass('open');
+    }
+});
+</script>      
     
-<script type="text/javascript" src="js/timer.js"></script>    
 <script type="text/javascript" src="js/script.js"></script>
         
 </body>

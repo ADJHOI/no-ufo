@@ -1,6 +1,21 @@
-@media screen and (min-width: 1025px) and (max-width: 1259px) {
+@media screen and (min-width: 1570px) {
+    
+    .left, .right{
+        width: 750px;
+    }
+    
+    #map{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 1259px) {
  
     .left, .right{
+        width: 482px;
+    }
+    
+    #map{
         width: 482px;
     }
     
@@ -10,7 +25,7 @@
     
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     
     .wrapper{
         height: calc(100% - 90px);
@@ -18,6 +33,11 @@
         height:  -moz-calc(100% - 90px);
         min-height: 0px;
         margin: 19px 20px;
+    }
+    
+    #map{
+        height: calc(100% - 90px);
+        width: calc(100% - 40px);
     }
     
     .left-wrapper, .right-wrapper{
@@ -54,7 +74,7 @@
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 599px){
+@media screen and (max-width: 599px){
     
     .countup{
         font-size: 54px;
@@ -68,14 +88,195 @@
     
 }
 
-@media screen and (min-width: 0px) and (max-width: 450px){
+@media screen and (max-width: 450px){
+    
+    .report-title{
+        top: calc(50% + 80px);
+        transform: translateY(-50%); 
+    }
+    
+    .report-title h1{
+        font-size: 25px;
+    }
+    
+    .annotate-left{
+        margin-left: -7px
+    }
+    
+    .annotate-right{
+        margin-right: -7px
+    }
+    
+    .report-section{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
     
     h1{
         font-size: 74px;
     }
     
+    .detail-title{
+        font-size: 18px;
+    }
+    
+    .detail-sticky{
+/*        padding-top: 20px;*/
+/*        padding-bottom: 5px;*/
+    }
+    
+    .detail-heading{
+        font-size: 13px; 
+    }
+    
+    .detail .smallcaps{
+        font-size: 11px;
+        margin-left: 2px;
+    }
+    
+    .smallcaps{
+        font-size: 9px;
+        margin-left: 1px;
+    }
+    
+    .number-point{
+        margin-bottom: -14px;
+    }
+    
+    .bullet{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .arrow{
+        font-size: 16px;
+    }
+    
+    .detail{
+        padding-bottom: 2px;
+    }
+    
+    h3{
+        font-size: 10px;   
+    }
+    
+    .menu-home h2{
+        padding: 7px 0px;
+    }
+    
+    .menu-wrapper h2{
+        font-size: 16px;
+    }
+    
+    .menu-report{
+        margin: 10px 0px 18px 0px;
+    }
+    
+    .menu-report p{
+        font-size: 14px;
+    }
+    
+    .reports{
+        margin-top: 7px;
+    }
+    
+    .note{
+        font-size: 12px;    
+    }
+    
+    .credit{
+        font-size: 14px;
+    }
+    
+    .detail p, .view-button{
+        font-size: 14px;
+    }
+    
+    .flickity-prev-next-button {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    
+    .report-image{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .image-caption{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    .exit{
+        margin-top: 20px;
+        left: calc(100% - 57px);
+    }
+    
+    .leaflet-touch .leaflet-bar a{
+        margin-left: 15px;
+    }
+    
+    .leaflet-control-zoom-in{
+        margin-top: 10px;    
+    }
+
+    .leaflet-control-zoom-out{
+        margin-top: 5px;
+    }
+    
+    .report-text{
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .report-cat{
+        margin-bottom: 10px
+    }
+    
+    .report-name{
+        line-height: 16px;
+    }
+    
+    .report-end{
+        margin-top: 20px;
+    }
+    
+    .report-note{
+        margin-top: 10px;
+    }
+    
+    .pull-quote{
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    .report-nav{
+        margin-top: 15px;
+    }
+    
+    .arrow{
+        top: 0px;
+    }
+    
+    .report-number{
+        top: calc(50% + 80px);
+        transform: translateY(-50%);    
+    }
+    
     p{
         font-size: 12px;
+    }
+    
+    .document-list{
+        margin-top: 35px;
+    }
+    
+    .counter-wrapper{
+        margin-bottom: 40px;
+    }
+    
+    .counter{
+        margin-top: 40px;
     }
     
     .counter h2{
@@ -87,37 +288,33 @@
     }
     
     .dash{
-/*
         position: relative;
-        top: -6px;
+        top: -5px;
         margin-right: -5px;
-*/
     }
 
     .o{
         margin-left: -2px;
-        margin-right: 22px;
+        margin-right: 23px;
     }
     
     .container-2{
-        box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.9);
-        -webkit-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.9);
-        -moz-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.9);
+        box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.95);
+        -webkit-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.95);
+        -moz-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.95);
     }
     
-}
-
-@media screen and (min-width: 0px) and (max-width: 380px){
-    
-    .countup{
-        font-size: 44px;
+    .view-map{
+        top: calc(200% - 50px);
     }
     
-    .colon{
-    position: relative;
-    top: -2px;
-    margin: 0px -6px
+    @keyframes infinite-scroll{
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-102.5%, 0);
+        }
     }
-    
     
 }
