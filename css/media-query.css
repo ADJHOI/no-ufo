@@ -119,11 +119,6 @@
         font-size: 13px; 
     }
     
-    .detail .smallcaps{
-        font-size: 11px !important;
-        margin-left: 2px !important;
-    }
-    
     .number-point{
 /*        font: ;*/
         margin-bottom: -14px;
@@ -173,9 +168,14 @@
     .credit{
         font-size: 14px;
     }
+
+    .detail p{
+        font-size: 14px;
+    }
     
-    .detail p, .view-button{
-        font-size: 14px !important;
+    .detail .smallcaps{
+        font-size: 11px;
+        margin-left: 2px !important;
     }
     
     .flickity-prev-next-button {
