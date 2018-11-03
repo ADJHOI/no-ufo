@@ -305,7 +305,7 @@
     }
     
     .view-map{
-        top: calc(200% - 50px);
+/*        top: calc(200% - 50px);*/
     }
     
     @keyframes infinite-scroll{
