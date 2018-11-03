@@ -1,68 +1,3 @@
-@media screen and (min-width: 1570px) {
-    
-    .left, .right{
-        width: 750px;
-    }
-    
-    #map{
-        width: 750px;
-    }
-}
-
-@media screen and (max-width: 1259px) and (min-width: 1025px){
- 
-    .left, .right{
-        width: 482px;
-    }
-    
-    #map{
-        width: 482px;
-    }
-    
-}
-
-@media screen and (min-width: 0px) and (max-width: 1025px){
-    
-    .wrapper{
-        height: calc(100% - 90px);
-        height: -webkit-calc(100% - 90px);
-        height:  -moz-calc(100% - 90px);
-        min-height: 0px;
-        margin: 19px 20px;
-    }
-    
-    #map{
-        height: calc(100% - 90px);
-        width: calc(100% - 40px);
-    }
-    
-    .left-wrapper, .right-wrapper{
-        margin: 0px;
-        width: 100%;
-    }
-    
-    .left-wrapper{
-        display: block;
-    }
-    
-    .right-wrapper{
-        display: none;
-    }
-    
-    .left, .right{
-        float: left;
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-    }
-    
-    .mobile-nav{
-        display: block;
-        margin: 19px 20px;
-    }
-    
-}
-
 @media screen and (min-width: 0px) and (max-width: 450px){
     
     p{
@@ -129,6 +64,7 @@
     }
     
     .detail{
+        width: calc(100% - 46px) !important;
         padding-bottom: 2px;
     }
     
@@ -304,4 +240,69 @@
         }
     }
     
+}
+
+@media screen and (min-width: 0px) and (max-width: 1025px){
+    
+    .wrapper{
+        height: calc(100% - 90px);
+        height: -webkit-calc(100% - 90px);
+        height:  -moz-calc(100% - 90px);
+        min-height: 0px;
+        margin: 19px 20px;
+    }
+    
+    #map{
+        height: calc(100% - 90px);
+        width: calc(100% - 40px);
+    }
+    
+    .left-wrapper, .right-wrapper{
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .left-wrapper{
+        display: block;
+    }
+    
+    .right-wrapper{
+        display: none;
+    }
+    
+    .left, .right{
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    .mobile-nav{
+        display: block;
+        margin: 19px 20px;
+    }
+    
+}
+
+@media screen and (max-width: 1259px) and (min-width: 1025px){
+ 
+    .left, .right{
+        width: 482px;
+    }
+    
+    #map{
+        width: 482px;
+    }
+    
+}
+
+@media screen and (min-width: 1570px) {
+    
+    .left, .right{
+        width: 750px;
+    }
+    
+    #map{
+        width: 750px;
+    }
 }
