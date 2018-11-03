@@ -74,20 +74,6 @@
     }
 }
 
-@media screen and (max-width: 599px){
-    
-    .countup{
-        font-size: 54px;
-    }
-    
-    .colon{
-    position: relative;
-    top: -4px;
-    margin: 0px -7px
-    }
-    
-}
-
 @media screen and (max-width: 450px){
     
     .report-title{
@@ -130,8 +116,8 @@
     }
     
     .detail .smallcaps{
-        font-size: 11px;
-        margin-left: 2px;
+        font-size: 11px !important;
+        margin-left: 2px !important;
     }
     
     .smallcaps{
@@ -189,7 +175,7 @@
     }
     
     .detail p, .view-button{
-        font-size: 14px;
+        font-size: 14px !important;
     }
     
     .flickity-prev-next-button {

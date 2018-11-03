@@ -293,8 +293,9 @@ h2{
 }
 
 .detail{
-    position: relative;
-    top: 4px;
+    margin-bottom: -4px;
+/*    position: relative;*/
+/*    top: 4px;*/
     overflow-x: hidden;
     border-bottom: 1px solid #000000;
     padding-bottom: 4px;
