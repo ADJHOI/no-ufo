@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1570px) {
+@media screen and (min-width: 1570px) {
     .left, .right{
         width: 750px;
     }
@@ -8,7 +8,7 @@
     }
 }
 
-@media only screen and (max-width: 1259px) {
+@media screen and (max-width: 1259px){
  
     .left, .right{
         width: 482px;
@@ -24,7 +24,7 @@
     
 }
 
-@media only screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     
     .wrapper{
         height: calc(100% - 90px);
@@ -73,7 +73,7 @@
     }
 }
 
-@media only screen and (max-width: 450px){
+@media screen and (max-width: 450px){
     
     .report-title{
         top: calc(50% + 80px);
@@ -174,8 +174,8 @@
     }
     
     .detail .smallcaps{
-        font-size: 11px !important;
-        margin-left: 2px !important;
+        font-size: 11px;
+        margin-left: 2px;
     }
     
     .flickity-prev-next-button {
