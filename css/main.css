@@ -497,12 +497,14 @@ h3{
 }
 
 .arrow{
+/*
     position: relative;
     top: -1px
+*/
 }
 
 .previous{
-    margin-top: -4px;
+/*    margin-top: -4px;*/
     opacity: 0.3;
     float: left;
 }
@@ -512,7 +514,7 @@ h3{
 }
 
 .next{
-    margin-top: -4px;
+/*    margin-top: -4px;*/
     opacity: 0.3;
     float: right;
 }
@@ -1013,7 +1015,7 @@ p{
     text-align: center;
     font-size: 21px;
     height: 100%;
-    line-height: 27px;
+    line-height: 30px;
 /*    margin-right: -5px;*/
 }
 

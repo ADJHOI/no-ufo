@@ -240,8 +240,13 @@
         margin-top: 15px;
     }
     
+    .previous, .next{
+        margin-top: -4px;
+    }
+    
     .arrow{
-        top: 0px;
+        position: relative;
+        top: 2px;
     }
     
     .report-number{
