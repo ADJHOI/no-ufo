@@ -1,4 +1,5 @@
 @media screen and (min-width: 1570px) {
+    
     .left, .right{
         width: 750px;
     }
@@ -9,7 +10,6 @@
 }
 
 @media screen and (max-width: 1259px) and (min-width: 1025px){
-/*@media screen and (min-width: 1025px){*/
  
     .left, .right{
         width: 482px;
@@ -19,14 +19,9 @@
         width: 482px;
     }
     
-    .countup{
-        font-size: 68px;
-    }
-    
 }
 
-@media screen and (max-width: 1025px){
-/*@media screen and (min-width: 451px){*/
+@media screen and (min-width: 0px) and (max-width: 1025px){
     
     .wrapper{
         height: calc(100% - 90px);
@@ -54,10 +49,6 @@
         display: none;
     }
     
-    .container-1{
-/*        margin-bottom: 0px;*/
-    }
-    
     .left, .right{
         float: left;
         width: 100%;
@@ -70,13 +61,14 @@
         margin: 19px 20px;
     }
     
-    .mobile-nav p{
-/*        margin: 0px*/
-    }
 }
 
-@media screen and (max-width: 450px){
-/*@media screen and (min-width: 0px){*/
+@media screen and (min-width: 0px) and (max-width: 450px){
+    
+    p{
+/*        font-size: 12px;*/
+        font-size: 0.75em;
+    }
     
     .report-title{
         top: calc(50% + 80px);
@@ -84,7 +76,8 @@
     }
     
     .report-title h1{
-        font-size: 25px;
+/*        font-size: 25px;*/
+        font-size: 1.55em;
     }
     
     .annotate-left{
@@ -101,29 +94,27 @@
     }
     
     .smallcaps{
-        font-size: 9px;
+/*        font-size: 9px;*/
+        font-size: 0.75em;
         margin-left: 1px;
     }
     
     h1{
-        font-size: 74px;
+/*        font-size: 74px;*/
+        font-size: 4.62em;
     }
     
     .detail-title{
-        font-size: 18px;
-    }
-    
-    .detail-sticky{
-/*        padding-top: 20px;*/
-/*        padding-bottom: 5px;*/
+/*        font-size: 18px;*/
+        font-size: 1.13em;
     }
     
     .detail-heading{
-        font-size: 13px; 
+/*        font-size: 13px;*/
+        font-size: 0.95em;
     }
     
     .number-point{
-/*        font: ;*/
         margin-bottom: -14px;
     }
     
@@ -133,7 +124,8 @@
     }
     
     .arrow{
-        font-size: 16px;
+/*        font-size: 16px;*/
+        font-size: 1.33em;
     }
     
     .detail{
@@ -149,7 +141,8 @@
     }
     
     .menu-wrapper h2{
-        font-size: 16px;
+/*        font-size: 16px;*/
+        font-size: 1em;
     }
     
     .menu-report{
@@ -157,7 +150,8 @@
     }
     
     .menu-report p{
-        font-size: 14px;
+/*        font-size: 14px;*/
+        font-size: 0.87em;
     }
     
     .reports{
@@ -165,19 +159,23 @@
     }
     
     .note{
-        font-size: 12px;    
+/*        font-size: 12px;*/
+        font-size: 0.75em;
     }
     
     .credit{
-        font-size: 14px;
+/*        font-size: 14px;*/
+        font-size: 0.87em;
     }
 
     .detail p{
-        font-size: 14px !important;
+/*        font-size: 14px;*/
+        font-size: 0.88em;
     }
     
     .detail .smallcaps{
-        font-size: 11px;
+/*        font-size: 11px;*/
+        font-size: 0.77em;
         margin-left: 2px;
     }
     
@@ -192,7 +190,8 @@
     }
     
     .image-caption{
-        font-size: 10px;
+/*        font-size: 10px;*/
+        font-size: 0.65em;
         margin-top: 10px;
     }
     
@@ -235,7 +234,8 @@
     }
     
     .pull-quote{
-        font-size: 20px;
+/*        font-size: 20px;*/
+        font-size: 1.25em;
         padding: 15px;
     }
     
@@ -257,10 +257,6 @@
         transform: translateY(-50%);    
     }
     
-    p{
-        font-size: 12px;
-    }
-    
     .document-list{
         margin-top: 35px;
     }
@@ -274,7 +270,8 @@
     }
     
     .counter h2{
-        font-size: 28px;
+/*        font-size: 28px;*/
+        font-size: 1.75em;
     }
     
     .time{
@@ -298,16 +295,12 @@
         -moz-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.95);
     }
     
-    .view-map{
-/*        top: calc(200% - 50px);*/
-    }
-    
     @keyframes infinite-scroll{
         0% {
             transform: translate(0, 0);
         }
         100% {
-            transform: translate(-102.5%, 0);
+            transform: translate(-102%, 0);
         }
     }
     
