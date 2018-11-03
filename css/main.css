@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Helvetica Neue";
     position: absolute;
     -webkit-font-smoothing: antialiased;
 /*    overflow: hidden;*/
@@ -842,7 +842,7 @@ p{
 }
 
 .scroll-arrow{
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Helvetica Neue";
     text-align: center;
     position: sticky;
     position: -webkit-sticky;
@@ -1001,7 +1001,7 @@ p{
 }
 
 .mobile-nav p{
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica Neue";
     width: 100%;
     text-align: center;
     font-size: 21px;
