@@ -323,9 +323,15 @@ h2{
 }
 
 .detail p{
+    font-size: 18px;
     display: inline-block;
     animation: infinite-scroll 9s linear infinite;
 /*    padding-left: 100%;*/
+}
+
+.detail .smallcaps{
+    font-size: 14px;
+    margin-left: 3px;
 }
 
 .infi-scroll{
@@ -347,20 +353,11 @@ h2{
     }
 }
 
-.detail .smallcaps{
-    font-size: 14px;
-    margin-left: 3px;
-}
-
 h3{
     margin-top: 7px;
     font-size: 14px;
     margin-bottom: 2px;
     text-transform: uppercase;
-}
-
-.detail p{
-    font-size: 18px
 }
 
 .view-map{
@@ -770,6 +767,7 @@ h3{
     opacity: 1 !important;
     margin-left: 10px;
     border-radius: 0px !important;
+    color: #000000 !important;
     background-color: #ffffff !important;
     border: 1px solid #000000 !important;
     -webkit-touch-callout: none;
