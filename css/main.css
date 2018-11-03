@@ -786,13 +786,15 @@ h3{
 .leaflet-control-zoom-in{
     font-family: "Helvetica Neue" !important;
     text-align: center !important;
-    margin-top: 10px;    
+    margin-top: 10px;
+    line-height: 26px !important;
 }
 
 .leaflet-control-zoom-out{
     font-family: "Helvetica Neue" !important;
     text-align: center !important;
     margin-top: 10px;
+    line-height: 26px !important;
 }
 
 .exit{
