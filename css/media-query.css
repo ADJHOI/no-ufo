@@ -8,7 +8,8 @@
     }
 }
 
-@media screen and (max-width: 1259px){
+@media screen and (max-width: 1259px) and (min-width: 1025px){
+/*@media screen and (min-width: 1025px){*/
  
     .left, .right{
         width: 482px;
@@ -24,7 +25,8 @@
     
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1025px){
+/*@media screen and (min-width: 451px){*/
     
     .wrapper{
         height: calc(100% - 90px);
@@ -74,6 +76,7 @@
 }
 
 @media screen and (max-width: 450px){
+/*@media screen and (min-width: 0px){*/
     
     .report-title{
         top: calc(50% + 80px);
