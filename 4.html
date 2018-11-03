@@ -39,7 +39,6 @@
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/media-query.css"/>
     <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
-<!--    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css"/>-->
     
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -324,8 +323,8 @@
                         center: [-38.9911, 174.2377],
                         zoom: 12,
                         doubleClickZoom: false,
-//                        zoomControl: false,
-//                        attributionControl: false,
+                        touchZoom: 'center',
+                        bounceAtZoomLimits: false,
                         dragging: false,
                         scrollWheelZoom: 'center',
                         keyboard: false,
