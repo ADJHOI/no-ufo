@@ -1,3 +1,247 @@
+@media only screen and (min-width: 0px) and (max-width : 375px){
+    
+    p{
+/*        font-size: 12px;*/
+        font-size: 0.75em;
+    }
+    
+    .report-title{
+        top: calc(50% + 80px);
+        transform: translateY(-50%); 
+    }
+    
+    .report-title h1{
+/*        font-size: 25px;*/
+        font-size: 1.55em;
+    }
+    
+    .annotate-left{
+        margin-left: -7px
+    }
+    
+    .annotate-right{
+        margin-right: -7px
+    }
+    
+    .report-section{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .smallcaps{
+/*        font-size: 9px;*/
+        font-size: 0.75em;
+        margin-left: 1px;
+    }
+    
+    h1{
+/*        font-size: 74px;*/
+        font-size: 4.62em;
+    }
+    
+    .detail-title{
+/*        font-size: 18px;*/
+        font-size: 1.13em;
+    }
+    
+    .detail-heading{
+/*        font-size: 13px;*/
+        font-size: 0.95em;
+    }
+    
+    .number-point{
+        margin-bottom: -14px;
+    }
+    
+    .bullet{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .arrow{
+/*        font-size: 16px;*/
+        font-size: 1.33em;
+    }
+    
+    .detail{
+        width: calc(100% - 46px) !important;
+        padding-bottom: 2px;
+    }
+    
+    h3{
+        font-size: 10px;   
+    }
+    
+    .menu-home h2{
+        padding: 7px 0px;
+    }
+    
+    .menu-wrapper h2{
+/*        font-size: 16px;*/
+        font-size: 1em;
+    }
+    
+    .menu-report{
+        margin: 10px 0px 18px 0px;
+    }
+    
+    .menu-report p{
+/*        font-size: 14px;*/
+        font-size: 0.87em;
+    }
+    
+    .reports{
+        margin-top: 7px;
+    }
+    
+    .note{
+/*        font-size: 12px;*/
+        font-size: 0.75em;
+    }
+    
+    .credit{
+/*        font-size: 14px;*/
+        font-size: 0.87em;
+    }
+
+    .detail p{
+/*        font-size: 14px;*/
+        font-size: 0.88em;
+    }
+    
+    .detail .smallcaps{
+/*        font-size: 11px;*/
+        font-size: 0.77em;
+        margin-left: 2px;
+    }
+    
+    .flickity-prev-next-button {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    
+    .report-image{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .image-caption{
+/*        font-size: 10px;*/
+        font-size: 0.65em;
+        margin-top: 10px;
+    }
+    
+    .exit{
+        margin-top: 20px;
+        left: calc(100% - 57px);
+    }
+    
+    .leaflet-touch .leaflet-bar a{
+        margin-left: 15px;
+    }
+    
+    .leaflet-control-zoom-in{
+        margin-top: 10px;    
+    }
+
+    .leaflet-control-zoom-out{
+        margin-top: 5px;
+    }
+    
+    .report-text{
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .report-cat{
+        margin-bottom: 10px
+    }
+    
+    .report-name{
+        line-height: 16px;
+    }
+    
+    .report-end{
+        margin-top: 20px;
+    }
+    
+    .report-note{
+        margin-top: 10px;
+    }
+    
+    .pull-quote{
+/*        font-size: 20px;*/
+        font-size: 1.25em;
+        padding: 15px;
+    }
+    
+    .report-nav{
+        margin-top: 15px;
+    }
+    
+    .previous, .next{
+        margin-top: -4px;
+    }
+    
+    .arrow{
+        position: relative;
+        top: 2px;
+    }
+    
+    .report-number{
+        top: calc(50% + 80px);
+        transform: translateY(-50%);    
+    }
+    
+    .document-list{
+        margin-top: 35px;
+    }
+    
+    .counter-wrapper{
+        margin-bottom: 40px;
+    }
+    
+    .counter{
+        margin-top: 40px;
+    }
+    
+    .counter h2{
+/*        font-size: 28px;*/
+        font-size: 1.75em;
+    }
+    
+    .time{
+        margin-top: -7px;
+    }
+    
+    .dash{
+        position: relative;
+        top: -5px;
+        margin-right: -5px;
+    }
+
+    .o{
+        margin-left: -2px;
+        margin-right: 23px;
+    }
+    
+    .container-2{
+        box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.95);
+        -webkit-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.95);
+        -moz-box-shadow: 0px -75px 75px rgba(255, 255, 255, 0.95);
+    }
+    
+    @keyframes infinite-scroll{
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-102%, 0);
+        }
+    }
+    
+}
+
 @media screen and (min-width: 0px) and (max-width: 450px){
     
     p{
