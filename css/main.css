@@ -764,10 +764,9 @@ h3{
 }
 
 .leaflet-touch .leaflet-bar a{
-    opacity: 1 !important;
     margin-left: 10px;
+    color: #000000;
     border-radius: 0px !important;
-    color: #000000 !important;
     background-color: #ffffff !important;
     border: 1px solid #000000 !important;
     -webkit-touch-callout: none;
@@ -784,7 +783,6 @@ h3{
 }
 
 .leaflet-control-zoom-in{
-    opacity: 1 !important;
     font-family: "Helvetica Neue" !important;
     text-align: center !important;
     margin-top: 10px;
