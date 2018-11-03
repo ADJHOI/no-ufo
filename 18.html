@@ -169,7 +169,7 @@
                 </div>    
                     
                 <div class="report-section">
-                    <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "pageDots": false, "setGallerySize": false, "imagesLoaded": true }'>
+                    <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "pageDots": false}'>
                         <div class="carousel-cell">
                             <div class="image-wrapper-small">
                             <img src="assets/images/UFO-18-1.png">
@@ -194,7 +194,10 @@
                     <p class="image-caption">Raw Video of the Anomalous Returns <span class="brackets">(</span><span class="carousel-status"></span><span class="forward-slash">/</span>4<span class="brackets">)</span></p>
                     
                     <script>
-                        var flkty = new Flickity('.main-carousel');
+                        var flkty = new Flickity('.main-carousel', {
+                            imagesLoaded: true,
+                            wrapAround: true
+                        });
                         var carouselStatus = document.querySelector('.carousel-status');
 
                         function updateStatus() {
