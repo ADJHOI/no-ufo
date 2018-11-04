@@ -166,8 +166,7 @@ h1{
 }
 
 .down-arrow{
-/*    font-family: "Arial", sans-serif;*/
-    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
+    font-family: "Arial", sans-serif;
     position: relative;
     top: -4px;
     float: right;
@@ -175,8 +174,7 @@ h1{
 }
 
 .hover-arrow{
-/*    font-family: "Arial", sans-serif;*/
-    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
+    font-family: "Arial", sans-serif;
     visibility: hidden;
     position: relative;
     top: -1px;
@@ -209,7 +207,6 @@ h1{
 }
 
 .credit a:hover{
-/*    text-decoration: underline;*/
     border-bottom: none;
 }
 
@@ -981,8 +978,7 @@ p{
 }
 
 .mobile-nav p{
-    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
-/*    font-family: "Arial", sans-serif;*/
+    font-family: "Arial", sans-serif;
     width: 100%;
     text-align: center;
     font-size: 21px;
@@ -998,10 +994,6 @@ p{
 
 #right-nav.open{
     display: none;
-/*
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-*/
 }
 
 #left-nav{
