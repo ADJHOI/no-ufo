@@ -542,6 +542,8 @@ h3{
 }
 
 .next{
+/*    position: relative;*/
+/*    top: -40px;*/
     opacity: 0.3;
 /*    float: right;*/
 }
@@ -551,6 +553,8 @@ h3{
 }
 
 .home{
+/*    position: relative;*/
+/*    top: -20px;*/
     opacity: 0.3;
 }
 
