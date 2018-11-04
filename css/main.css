@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    font-family: "Helvetica Neue";
+    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
     position: absolute;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -166,12 +166,17 @@ h1{
 }
 
 .down-arrow{
+/*    font-family: "Arial", sans-serif;*/
+    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
     position: relative;
-    top: -2px;
+    top: -4px;
     float: right;
+    font-size: 17px;
 }
 
 .hover-arrow{
+/*    font-family: "Arial", sans-serif;*/
+    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
     visibility: hidden;
     position: relative;
     top: -1px;
@@ -238,6 +243,14 @@ h1{
     font-weight: 600;
 /*    font-size: 20px;*/
 /*    margin: 0px 10px;*/
+}
+
+.file-no a{
+    cursor: alias;
+}
+
+.file-no a:hover{
+    border-bottom: 2px solid #000000
 }
 
 .timer{
@@ -501,12 +514,6 @@ h3{
     font-weight: 800;
 }
 
-.arrow{
-/*
-    position: relative;
-    top: -1px
-*/
-}
 
 .previous{
 /*    margin-top: -4px;*/
@@ -790,15 +797,14 @@ h3{
 }
 
 .leaflet-control-zoom-in{
-    font-family: "Helvetica Neue" !important;
+    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif !important;
     text-align: center !important;
     margin-top: 10px;
     line-height: 26px !important;
 }
 
 .leaflet-control-zoom-out{
-    opacity: 1 !important;
-    font-family: "Helvetica Neue" !important;
+    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif !important;
     text-align: center !important;
     margin-top: 10px;
     line-height: 26px !important;
@@ -853,19 +859,6 @@ p{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-.scroll-arrow{
-    font-family: "Helvetica Neue";
-    text-align: center;
-    position: sticky;
-    position: -webkit-sticky;
-    top: calc(100% - 60px);
-    opacity: 0.25;
-}
-
-.scroll-arrow p{
-    font-size: 20px;
 }
 
 .dash{
@@ -933,15 +926,10 @@ p{
     height: -webkit-calc(100% - 40px);
     height:  -moz-calc(100% - 40px);
     min-height: 300px;
-/*    max-width: 1920px;*/
-/*    margin: auto auto;*/
-/*    display: inline-block;*/
-
 }
 
 .left-wrapper, .right-wrapper{
     float: left;
-/*    margin: auto auto;*/
     width: 50%;
     height: 100%;
 }
@@ -992,6 +980,16 @@ p{
     user-select: none;
 }
 
+.mobile-nav p{
+    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
+/*    font-family: "Arial", sans-serif;*/
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    height: 100%;
+    line-height: 27px;
+}
+
 .mobile-nav:hover{
     background-color: #000000;
     color: #ffffff;
@@ -1014,25 +1012,13 @@ p{
     display: block;
 }
 
-.mobile-nav p{
-    font-family: "Helvetica Neue";
-    width: 100%;
-    text-align: center;
-    font-size: 21px;
-    height: 100%;
-    line-height: 30px;
-/*    margin-right: -5px;*/
-}
-
 .outline, .colon, .access{
     color: white;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;
-    mix-blend-mode: multiply;
-    
+    1px 1px 0 #000;    
 }
 
 .colon{
