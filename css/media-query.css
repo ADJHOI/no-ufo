@@ -2,7 +2,6 @@
     
     p{
         font-size: 12px;
-/*        font-size: 0.75em;*/
     }
     
     .report-title{
@@ -12,7 +11,6 @@
     
     .report-title h1{
         font-size: 25px;
-/*        font-size: 1.55em;*/
     }
     
     .annotate-left{
@@ -30,23 +28,19 @@
     
     .smallcaps{
         font-size: 9px;
-/*        font-size: 0.75em;*/
         margin-left: 1px;
     }
     
     h1{
         font-size: 74px;
-/*        font-size: 4.62em;*/
     }
     
     .detail-title{
         font-size: 18px;
-/*        font-size: 1.13em;*/
     }
     
     .detail-heading{
         font-size: 13px;
-/*        font-size: 0.95em;*/
     }
     
     .number-point{
@@ -60,7 +54,6 @@
     
     .arrow{
         font-size: 16px;
-/*        font-size: 1.33em;*/
     }
     
     .detail{
@@ -78,7 +71,6 @@
     
     .menu-wrapper h2{
         font-size: 16px;
-/*        font-size: 1em;*/
     }
     
     .menu-report{
@@ -87,7 +79,6 @@
     
     .menu-report p{
         font-size: 14px;
-/*        font-size: 0.87em;*/
     }
     
     .reports{
@@ -96,22 +87,18 @@
     
     .note{
         font-size: 12px;
-/*        font-size: 0.75em;*/
     }
     
     .credit{
         font-size: 14px;
-/*        font-size: 0.87em;*/
     }
 
     .detail p{
         font-size: 14px;
-/*        font-size: 0.88em;*/
     }
     
     .detail .smallcaps{
         font-size: 11px;
-/*        font-size: 0.77em;*/
         margin-left: 2px;
     }
     
@@ -127,7 +114,6 @@
     
     .image-caption{
         font-size: 10px;
-/*        font-size: 0.65em;*/
         margin-top: 10px;
     }
     
@@ -171,13 +157,11 @@
     
     .pull-quote{
         font-size: 20px;
-/*        font-size: 1.25em;*/
         padding: 15px;
     }
     
     .intro{
         font-size: 20px;
-/*        font-size: 1.25em;*/
     }
     
     .report-nav{
@@ -185,12 +169,12 @@
     }
     
     .previous, .next{
-        margin-top: -4px;
+        margin-top: -2px;
     }
     
     .arrow{
         position: relative;
-        top: 2px;
+        top: 0px;
     }
     
     .report-number{
@@ -212,7 +196,6 @@
     
     .counter h2{
         font-size: 28px;
-/*        font-size: 1.75em;*/
     }
     
     .time{

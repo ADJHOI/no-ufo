@@ -511,9 +511,13 @@ h3{
     font-weight: 800;
 }
 
+.arrow{
+    font-family: "Arial", sans-serif;
+    position: relative;
+    top: -1px;
+}
 
 .previous{
-/*    margin-top: -4px;*/
     opacity: 0.3;
     float: left;
 }
@@ -523,7 +527,6 @@ h3{
 }
 
 .next{
-/*    margin-top: -4px;*/
     opacity: 0.3;
     float: right;
 }
