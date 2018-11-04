@@ -316,21 +316,20 @@ h2{
 
 .detail-heading{
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
 /*    margin-left: 10px;*/
     margin-right: 5px;
     text-transform: uppercase;
 }
 
 .detail p{
-    font-size: 18px;
+/*    font-size: 18px;*/
     display: inline-block;
     animation: infinite-scroll 9s linear infinite;
-/*    padding-left: 100%;*/
 }
 
 .detail .smallcaps{
-    font-size: 14px;
+/*    font-size: 14px;*/
     margin-left: 3px;
 }
 
