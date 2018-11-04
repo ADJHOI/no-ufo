@@ -506,9 +506,24 @@ h3{
 }
 
 .report-nav{
-    text-align: center;
+/*    text-align: center;*/
     margin-top: 15px;
     font-weight: 800;
+}
+
+.text-left{
+    margin-bottom: -20px;
+    text-align: left;
+}
+
+.text-center{
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.text-right{
+    margin-bottom: -20px;
+    text-align: right;
 }
 
 .arrow{
@@ -519,7 +534,7 @@ h3{
 
 .previous{
     opacity: 0.3;
-    float: left;
+/*    float: left;*/
 }
 
 .previous:hover{
@@ -528,7 +543,7 @@ h3{
 
 .next{
     opacity: 0.3;
-    float: right;
+/*    float: right;*/
 }
 
 .next:hover{
