@@ -169,15 +169,17 @@
     }
     
     .text-left{
-        margin-top: -5px;
+/*        margin-top: -5px;*/
+        margin-top: -0.3em;
     }
     
     .text-center{
-        margin-top: 4px;
+        margin-top: 0.3em
+/*        margin-top: 4px;*/
     }
     
     .text-right{
-        margin-top: 2.5px;
+        margin-top: 0.25em;
     }
     
     .previous, .next{
