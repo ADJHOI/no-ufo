@@ -533,33 +533,39 @@ h3{
 }
 
 .previous{
-    opacity: 0.3;
+    color: #b2b2b2;
+/*    opacity: 0.3;*/
 /*    float: left;*/
 }
 
 .previous:hover{
-    opacity: 1;
+    color: #000000;
+/*    opacity: 1;*/
 }
 
 .next{
 /*    position: relative;*/
 /*    top: -40px;*/
-    opacity: 0.3;
+    color: #b2b2b2;
+/*    opacity: 0.3;*/
 /*    float: right;*/
 }
 
 .next:hover{
-    opacity: 1;
+    color: #000000;
+/*    opacity: 1;*/
 }
 
 .home{
 /*    position: relative;*/
 /*    top: -20px;*/
-    opacity: 0.3;
+/*    opacity: 0.3;*/
+    color: #b2b2b2;
 }
 
 .home:hover{
-    opacity: 1;
+    color: #000000;
+/*    opacity: 1;*/
 }
 
 .underline{
