@@ -995,6 +995,7 @@ p{
     margin: 0px 20px;
     display: none;
     height: 30px;
+    width: calc(100% - 40px);
     border: 1px solid #000000;
     z-index: 1;
     -webkit-touch-callout: none;
