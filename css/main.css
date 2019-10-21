@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    font-family: "Neue Helvetica W05", "Helvetica Neue", sans-serif;
+    font-family: neue-haas-grotesk-display, sans-serif;
     position: absolute;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -15,8 +15,6 @@ body{
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
     -moz-text-size-adjust: none;
-/*    overflow: hidden;*/
-/*    background-color: #000000;*/
 }
 
 ::-moz-selection {
@@ -36,6 +34,10 @@ body{
 
 h1, h2, h3, h4, p{
     margin: 0px;
+}
+
+p{
+    font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 a{
@@ -97,7 +99,7 @@ a{
 
 .report-title h1{
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .annotate-left{
@@ -109,6 +111,7 @@ a{
 }
 
 h1{
+    font-weight: 600;
     text-align: center;
     font-size: 100px;
 }
@@ -376,9 +379,7 @@ h3{
 }
 
 .view-map{
-/*    position: relative;*/
     margin-left: 0px;
-/*    left: 14px;*/
     cursor: help;
     width: 30px;
     height: 30px;
@@ -440,14 +441,13 @@ h3{
 .pull-quote{
     text-align: center;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 30px;
     padding: 20px;
     border: 1px solid #000000;
 /*    color: #ffffff;*/
 /*    background-color: #000000;*/
     background-color: #ffffff;
-/*    margin-left: 2em;*/
 }
 
 .report-section{
@@ -506,23 +506,23 @@ h3{
 }
 
 .report-nav{
-/*    text-align: center;*/
-    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+    -ms-grid-columns: repeat(auto-fit, minmax(0px, 1fr));
+    margin-top: 20px;
     font-weight: 800;
+    padding-bottom: 5px;
 }
 
 .text-left{
-    margin-bottom: -20px;
     text-align: left;
 }
 
 .text-center{
-    margin-bottom: -20px;
     text-align: center;
 }
 
 .text-right{
-    margin-bottom: -20px;
     text-align: right;
 }
 
@@ -718,8 +718,9 @@ h3{
 }
 
 .light{
+    font-family: neue-haas-grotesk-display, sans-serif;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .italic{
@@ -728,7 +729,7 @@ h3{
 
 .smallcaps{
     font-size: 13px;
-    margin-left: 2px;  
+    margin-left: 2px !important;  
 }
 
 .time-colon{
@@ -737,9 +738,9 @@ h3{
 }
 
 .brackets{
-/*    margin: 0px 1px;*/
+    margin: 0px 1px;
     position: relative;
-    top: -1px;
+/*    top: -0.04em;*/
 }
 
 .degree{
@@ -752,7 +753,7 @@ h3{
 }
 
 .forward-slash{
-    margin: 0px 2px;
+    margin: 0px 1px;
 }
 
 .hyphen{
@@ -869,6 +870,7 @@ h3{
 p{
 /*    position: relative;*/
     font-size: 16px;
+    line-height: 19px;
 }
 
 .fixed-row{
